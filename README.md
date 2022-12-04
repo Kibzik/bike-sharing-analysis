@@ -2,6 +2,8 @@
 ![bike-sharing](https://raw.githubusercontent.com/Masterx-AI/Project_BoomBikes_Share_Prediction/main/bbk.jpg)
 ## Table of Contents
  * [Problem Description](#problem-description)
+   * [About the Data](#about-the-data)
+   * [Questions](#questions)
    * [Goals](#goals)
  * [Features Description](#features-description)
  * [Tech Stack and concepts](#tech-stack-and-concepts)
