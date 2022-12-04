@@ -4,6 +4,8 @@ from pydantic import BaseModel
 
 class BikeSharingData(BaseModel):
     FeelsLikeC: Optional[int]
+    maxtempC: Optional[int]
+    mintempC: Optional[int]
     windspeedKmph: Optional[int]
     cloudcover: Optional[int]
     humidity: Optional[int]
@@ -12,6 +14,7 @@ class BikeSharingData(BaseModel):
     is_holiday: Optional[int]
     is_weekend: Optional[int]
     year: Optional[int]
+    season: Optional[int]
     month: Optional[int]
     hour: Optional[int]
     day: Optional[int]

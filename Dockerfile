@@ -11,3 +11,4 @@ COPY predict.py ./
 
 EXPOSE 5050
 CMD uvicorn predict:app --host=0.0.0.0 --port=5050
+#CMD uvicorn predict:app --host=0.0.0.0 --port=$PORT
