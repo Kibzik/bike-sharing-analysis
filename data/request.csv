@@ -1,0 +1,4 @@
+FeelsLikeC,maxtempC,mintempC,windspeedKmph,cloudcover,humidity,pressure,visibility,is_holiday,is_weekend,year,season,month,hour,day,week_day
+-33,-17,-24,17,60,95,1027,10,0,1,2021,1,2,10,7,Sunday
+-33,-17,-24,21,67,97,1024,8,0,1,2021,1,2,3,7,Sunday
+-32,-16,-21,20,56,93,1032,9,0,1,2021,1,2,5,14,Sunday
