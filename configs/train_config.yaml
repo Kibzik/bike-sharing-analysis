@@ -1,0 +1,15 @@
+input_data_path: "../data/df_for_modelling.csv"
+output_encoder_path: "../models/encoder.pkl"
+output_scaler_path: "../models/scaler.pkl"
+output_model_path: "../models/model.pkl"
+metric_path: "../data/metrics/metrics.json"
+splitting_params:
+  test_size: 0.2
+  random_state: 1
+train_params:
+  model_type: "XGBRegressor"
+  random_state: 1
+  n_estimators: 900
+  min_child_weight: 2
+  max_depth: 6
+  learning_rate: 0.23
