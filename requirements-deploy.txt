@@ -1,0 +1,5 @@
+fastapi
+scikit-learn==1.1.3
+xgboost
+pydantic
+uvicorn==0.15.0
