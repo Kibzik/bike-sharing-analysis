@@ -62,7 +62,7 @@ def evaluate_model(target: pd.Series, predicts: np.array) -> dict:
     mse = round(mean_squared_error(target, predicts), 3)
 
     return {
-        'accuracy': r2,
+        'r2': r2,
         'mae': mae,
         'mse': mse
     }
