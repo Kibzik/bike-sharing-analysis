@@ -15,25 +15,25 @@ logger.addHandler(handler)
 
 
 def load_object(path: str):
-    with open(path, 'rb') as f:
+    with open(path, "rb") as f:
         return pickle.load(f)
 
 
-encoder = load_object('models/encoder.pkl')
-scaler = load_object('models/scaler.pkl')
-model = load_object('models/model.pkl')
+encoder = load_object("models/encoder.pkl")
+scaler = load_object("models/scaler.pkl")
+model = load_object("models/model.pkl")
 
-app = FastAPI(title='Number of rides prediction')
+app = FastAPI(title="Number of rides prediction")
 
 
-@app.get('/')
+@app.get("/")
 def main():
-    return 'Welcome to the number of rides prediction webservice!'
+    return "Welcome to the number of rides prediction webservice!"
 
 
-@app.post('/predict', response_model=BikeSharingResponse)
+@app.post("/predict", response_model=BikeSharingResponse)
 def predict(request: BikeSharingData):
-    print(f'Incoming request:\n{request}')
+    print(f"Incoming request:\n{request}")
     bike_sharing_features = request.dict()
     X = encoder.transform(bike_sharing_features)
 
@@ -43,4 +43,4 @@ def predict(request: BikeSharingData):
 
 
 if __name__ == "__main__":
-    uvicorn.run('predict:app', host='0.0.0.0', port=5050, reload=True)
+    uvicorn.run("predict:app", host="0.0.0.0", port=5050, reload=True)

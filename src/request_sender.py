@@ -14,11 +14,11 @@ def send_requests(host: str = "localhost:5050", dataset_path=None) -> None:
 
     """
     data = pd.read_csv(dataset_path, index_col=[0])
-    for request_data in data.to_dict('records'):
-        print(f'Request to service: {request_data}')
-        response = requests.post(url=f'http://{host}/predict', json=request_data)
-        print(f'Status code: {response.status_code}')
-        print(f'Result: {response.text}')
+    for request_data in data.to_dict("records"):
+        print(f"Request to service: {request_data}")
+        response = requests.post(url=f"http://{host}/predict", json=request_data)
+        print(f"Status code: {response.status_code}")
+        print(f"Result: {response.text}")
         sleep(1)
 
 
