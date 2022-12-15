@@ -150,4 +150,4 @@ To test the service that is running locally
 - Just run the  [request sender](src/request_sender.py) without any changes
 
 To test our Heroku deployment, we should type:
-- Set host parameter in 27 line to 'predict-cnt-riders.herokuapp.com' and run [request sender](src/request_sender.py)
+- Set host parameter in 27 line to 'predict-cnt-riders-docker.herokuapp.com' and run [request sender](src/request_sender.py)
