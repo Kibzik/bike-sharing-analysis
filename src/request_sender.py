@@ -24,4 +24,4 @@ def send_requests(host: str = "localhost:5050", dataset_path=None) -> None:
 
 if __name__ == "__main__":
     dataset_path = "../data/request.csv"
-    send_requests(dataset_path=dataset_path)
+    send_requests(host="localhost:5050", dataset_path=dataset_path)
