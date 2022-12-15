@@ -3,6 +3,6 @@ trips_folder: "../data/trips/"
 wwo_hist_folder: "../data/weather/"
 api_key: "54951602af4b445ca3f180347222811"
 location_list: ["chicago"]
-start_date: "01-APR-2020"
+start_date: "01-JAN-2021"
 end_date: "01-DEC-2022"
 frequency: 1
