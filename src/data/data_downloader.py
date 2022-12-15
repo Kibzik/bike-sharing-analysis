@@ -51,4 +51,6 @@ class DataDownloader:
 if __name__ == "__main__":
     config = read_config("../../configs/data_config.yaml")
     data_params = parse_data_config(config)
+    data_params["trips_folder"] = "../../data/trips/"
+    data_params["wwo_hist_folder"] = "../../data/weather/"
     data_downloader = DataDownloader(data_params=data_params)
