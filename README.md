@@ -1,5 +1,5 @@
 # Bike Sharing Prediciton
-![bike-sharing](https://www.google.ru/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fbike-share&psig=AOvVaw07w7o9f37QhkV1N8ZWRtKo&ust=1674306427232000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLjljtCb1vwCFQAAAAAdAAAAABAE)
+![bike-sharing](https://raw.githubusercontent.com/Kibzik/bike-sharing-analysis/tree/main/imgs/bike_type.png)
 ## Table of Contents
  * [Problem Description](#problem-description)
    * [About the Data](#about-the-data)
