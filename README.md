@@ -1,5 +1,5 @@
 # Bike Sharing Prediciton
-![bike-sharing](https://raw.githubusercontent.com/Kibzik/bike-sharing-analysis/tree/main/imgs/bike_type.png)
+![bike-sharing](https://raw.githubusercontent.com/Kibzik/bike-sharing-analysis/main/imgs/bike_type.png)
 ## Table of Contents
  * [Problem Description](#problem-description)
    * [About the Data](#about-the-data)
