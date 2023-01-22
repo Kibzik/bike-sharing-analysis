@@ -110,7 +110,7 @@ waitress-serve --listen=0.0.0.0:5050 predict:app
 ```
 - Ubuntu
 ```bash
-gunicorn predict:app --host=0.0.0.0 --port=5050
+gunicorn --bind=0.0.0.0:5050 predict:app
 ```
 
 ### Containerization
