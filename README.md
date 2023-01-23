@@ -8,10 +8,12 @@
    * [Features Description](#features-description)
  * [Tech Stack and concepts](#tech-stack-and-concepts)
  * [Setup](#setup)
+   * [Download Data](#download-data)
    * [Virtual Environment](#virtual-environment)
    * [Run Service Locally](#run-service-locally)
    * [Docker Container](#docker-container)
    * [Deploying to Cloud](#deploying-to-cloudheroku-docker-deployment)
+   * [Service Testing](#service-testing)
 
 ## Problem Description
 The problem we will study was introduced by [Divvy Bikes](https://divvybikes.com/). the bicycle sharing system in the Chicago metropolitan area, currently serving the cities of Chicago and Evanston.
